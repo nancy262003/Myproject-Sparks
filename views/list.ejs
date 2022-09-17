@@ -1,0 +1,94 @@
+<%- include("partials/header") -%>
+
+
+
+
+
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Sender's Name</th>
+        <th scope="col">Sender's Account No.</th>
+        <th scope="col">Reciever's Name</th>
+        <th scope="col">Reciever's Account No.</th>
+        <th scope="col">Amount transferred:</th>
+      </tr>
+    </thead>
+    <tbody>
+      <%historyList.forEach(function(history){%>
+        
+        
+        
+        
+        
+  
+      <tr>
+        <!-- <th scope="row"></th> -->
+        <td><p><%=history.sname%></p></td>
+        <td><p><%=history.sAccount%></p></td>
+        <td><p><%=history.rName%></p></td>
+        <td><p><%=history.rAccount%></p></td>
+        <td><p><%=history.amount%></p></td></td>
+      </tr>
+    </tbody>
+    <%}); %>
+  </table>
+  
+  
+
+
+
+
+  <%- include("partials/footer") -%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

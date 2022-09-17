@@ -1,0 +1,100 @@
+<%- include ("partials/header"); -%>
+
+<h2>Details of Customers:- </h2>
+
+<div class = "box">
+    <%details.forEach(function(detail){%>
+
+        <div class=" col-md-3 allc " style="width: 75rem;">
+            <div class="card-body allcus">
+              <h5 class="card-title">
+                <h4 class = "fullname"> <u><%= detail.fname %> <%= detail.lname %> </u> </h4>
+                
+              </h5>
+              <p class="card-text">
+                    
+                    
+                    <h5>Acc Number: <%= detail.acc_num %></h5>
+                    
+                    <h5>Email: <%= detail.email %></h5>
+
+                    <h5>Current Balance: <%= detail.currBal %></h5>
+    
+                    
+                
+                    
+                    <h5>Address: <%= detail.addr %></h5>
+              </p>
+         
+          </div>
+          </div>        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    <% }); %>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include ("partials/footer"); -%>

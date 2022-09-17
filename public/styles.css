@@ -1,0 +1,121 @@
+body{
+    background-color: #CDF0EA;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'IBM Plex Serif', serif;;
+}
+
+h2{
+    padding-left: 470px;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+h4{
+    text-align: center;
+}
+
+.giphy{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+      
+}
+
+img{
+    width: 70px;
+    height : 70px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+}
+
+.mtr{
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.mtrbutton{
+    margin-left: 10px;
+}
+
+footer{
+    text-align: center;
+}
+
+.all-cus{
+    border-style:solid;
+    border-color: black;
+    align-items: center;
+    margin-bottom: 5px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-top: 4px;
+    /* float: left; */
+    /* margin-left: 20px; */
+    margin-right: 20px;
+   
+    
+}
+
+.box{
+  
+    margin-left: 50px;
+    padding-left: 40x;
+    padding-bottom : 5px  ;
+    
+
+}
+
+.container{
+    margin-left: 35%;
+    margin-top: 5%;
+    margin-bottom: 16%;
+    
+}   
+
+.card-body{
+    background-color: #F9F9F9;
+}
+
+
+
+.onec{
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+.one-c{
+    margin-top: 3px;
+    margin-left: 2%;
+}
+.heading{
+    background-color:#FAF4B7;
+    padding: 0;
+    margin: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img1{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.form-group {
+    padding-left: 2%;
+}
+
+footer{
+    margin-top: 33%;
+    background-color: #FAF4B7;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
