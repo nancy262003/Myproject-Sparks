@@ -7,7 +7,7 @@ const ejs = require("ejs");
 const app = express();
 app.set('view-engine', 'ejs');
 
-mongoose.connect("mongodb://localhost:27017/bankDB");
+mongoose.connect("mongodb://localhost:27017/sbsDB");
 
 const customerSchema = {
     id:Number,
@@ -26,7 +26,7 @@ const cust10 = new Customer({
     fname: "Devesh",
     lname: "Gujral",
     acc_num : "301879342",
-    email : "abcd@gmail.com",
+    email : "devesh123@gmail.com",
     addr : "San-Fransico, US",
     currBal:50000
 })
@@ -36,7 +36,7 @@ const cust2 = new Customer({
     fname: "Sachin",
     lname: "Bisht",
     acc_num : "809283324",
-    email : "abcd@gmail.com",
+    email : "bisht_sac.reddimail.com",
     addr : "Los-Angeles, US",
     currBal:21000
 })
@@ -48,7 +48,7 @@ const cust8 = new Customer({
     fname: "Ritika",
     lname: "Rawat",
     acc_num : "901223324",
-    email : "abcd@gmail.com",
+    email : "rawat.ritika12@gmail.com",
     addr : "Mumbai, India",
     currBal:58000
 })
@@ -59,6 +59,7 @@ const cust9 = new Customer({
     lname: "Sharma",
     acc_num : "503248348",
     dob : "19 Jan 2012",
+    email : "ami-25@gmail.com",
     addr : "Hyderabad, India",
     currBal:68000
 })
@@ -67,7 +68,7 @@ const cust3 = new Customer({
     fname: "Shershtha",
     lname: "Agarwaal",
     acc_num : "69328723",
-    email : "abcd@gmail.com",
+    email : "ch.agarwaal@gmail.com",
     addr : "Lucknow, India",
     currBal:72000
 })
@@ -77,7 +78,7 @@ const cust4 = new Customer({
     fname: "Armaan",
     lname: "Gupta",
     acc_num : "10394398",
-    email : "abcd@gmail.com",
+    email : "armaan_gup@yahoo.co.in",
     addr : "Kanpur, India",
     currBal:41000
 })
@@ -87,7 +88,7 @@ const cust5 = new Customer({
     fname: "Nikita",
     lname: "Sharma",
     acc_num : "22394873",
-    email : "jhk@gmail.com",
+    email : "nikki@gmail.com",
     addr : "Greater Noida, India",
     currBal:58990
 })
@@ -97,7 +98,7 @@ const cust6 = new Customer({
     fname: "Arushi",
     lname: "Purohit",
     acc_num : "4093840",
-    email:  "cvb@gmail.com",
+    email:  "purohit@123gmail.com",
     addr : "Jammu, India",
     currBal:59280
 })
@@ -107,7 +108,7 @@ const cust7 = new Customer({
     fname: "Tanmey",
     lname: "Rathi",
     acc_num : "79237498",
-    email : "abcd@gmail.com",
+    email : "Tanmey@gmail.com",
     addr : "Jaipur, India",
     currBal:87232
 })
@@ -117,7 +118,7 @@ const cust1 = new Customer({
     fname: "Arjit",
     lname: "Pandey",
     acc_num : "8263823",
-    email : "abcd@gmail.com",
+    email : "pandey.arijit@gmail.com",
     addr : "Kashmir, India",
     currBal:20982
 })
